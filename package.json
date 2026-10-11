@@ -1,0 +1,14 @@
+{
+  "name": "synapse-compatibility",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server and CLI that let Claude Code send work to private agents of a Synapse service",
+  "repository": "github:TheBestIT/synapse-compatibility",
+  "bin": { "synapse": "bin/synapse.mjs" },
+  "scripts": {
+    "mcp": "node src/mcp.mjs",
+    "synapse": "node bin/synapse.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

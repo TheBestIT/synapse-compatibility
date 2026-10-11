@@ -1,0 +1,19 @@
+{
+  "effort": "medium",
+  "engines": {
+    "claude": { "parallel": 1, "callsPerRun": 4, "blockMinutes": 60 },
+    "gpt": { "parallel": 6 },
+    "gemini": { "enabled": false }
+  },
+  "models": {
+    "designer": "claude-code/sonnet",
+    "worker": "dev"
+  },
+  "fallbacks": {
+    "default": ["m-gpt61-sol", "m-gpt6-sol", "m-dev-deep", "m-sonnet"],
+    "web": ["m-dev-deep", "m-dev", "m-sonnet"]
+  },
+  "agentSettings": { "max_searches": 8, "max_fetches": 12 },
+  "loopModel": "dev",
+  "defaults": { "concurrency": 8, "previewChars": 1200, "timeoutMinutes": 30 }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "synapse-compatibility",
+  "owner": { "name": "TheBestIT" },
+  "plugins": [
+    {
+      "name": "synapse",
+      "source": "./",
+      "description": "MCP server that sends work from Claude Code to private agents of a Synapse service."
+    }
+  ]
+}

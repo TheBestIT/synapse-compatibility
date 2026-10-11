@@ -1,0 +1,11 @@
+# Credentials and local data. Do not commit these.
+.env
+endpoints.txt
+synapse.config.json
+.mcp.json
+.synapse/
+runs/
+bench/results/
+node_modules/
+.claude/
+TFG/

@@ -1,0 +1,12 @@
+{
+  "name": "synapse",
+  "version": "0.3.0",
+  "description": "Use private agents of a Synapse service from Claude Code: specialists, councils, pipelines, large file digests and token reports.",
+  "repository": "https://github.com/TheBestIT/synapse-compatibility",
+  "mcpServers": {
+    "synapse": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/src/mcp.mjs"]
+    }
+  }
+}
