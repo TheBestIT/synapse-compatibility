@@ -213,3 +213,10 @@ The results go to `bench/results/`. Use them to select the model for each role.
 - `src/mcp.mjs`: MCP server on standard input and output.
 - `bin/synapse.mjs`: command line interface.
 - `CLAUDE.md`: instructions for Claude Code when it works in this directory.
+
+## License
+
+Copyright (C) 2026 TheBestIT
+
+This program is free software. You can distribute it and change it under the terms of the GNU General Public License, version 3 or a later version.
+The program has no warranty. Refer to the `LICENSE` file for the full terms.
